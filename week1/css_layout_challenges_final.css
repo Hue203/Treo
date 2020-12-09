@@ -1,3 +1,9 @@
+/* reverse the order of the challenges */
+body {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
 /* Applies border box sizing to the root element */
 :root {
 	box-sizing: border-box;
@@ -294,4 +300,87 @@ section h1 {
 }
 #challenge15 .col2 {
 	align-items: flex-end;
+}
+
+/* Challenge 16 */
+
+#challenge16 {
+	height: 100%;
+}
+
+#challenge16 .container {
+	padding: 30px;
+}
+
+#challenge16 img {
+	border-radius: 5px;
+	height: auto;
+	width: 100%;
+}
+
+#challenge16 .row1 {
+	margin-bottom: 30px;
+}
+#challenge16 .row3 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#challenge16 .row2 {
+	display: flex;
+}
+
+#challenge16 .col {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#challenge16 .left-img {
+	margin-right: 30px;
+}
+
+/* Challenge 17 */
+
+#challenge17 {
+	height: 100%;
+}
+
+#challenge17 .container {
+	padding: 30px;
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+#challenge17 .row1 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+#challenge17 .row1 div {
+	flex-basis: 33%;
+}
+
+#challenge17 .row2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#challenge17 .row2 div {
+	flex-basis: 25%;
+}
+
+#challenge17 .item {
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	margin: 0 10px;
+}
+
+#challenge17 .item h4 {
+	padding: 10px;
+	text-align: left;
 }

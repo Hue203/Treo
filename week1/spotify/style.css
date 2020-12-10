@@ -243,8 +243,14 @@ footer a {
 	text-transform: uppercase;
 }
 
-.footer-right * {
-	margin: 10px;
+.footer-right a {
+	margin-left: 20px;
+}
+
+.footer-right img {
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #222326;
 }
 
 footer .row2 {

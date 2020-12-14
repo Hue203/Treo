@@ -195,36 +195,6 @@ function superFizzBuzz() {
 	}
 }
 
-// superFizzBuzz();
-
-function convertNumber(i) {
-	if (i % 3 === 0 && i % 5 === 0 && i % 7 === 0) {
-		return 'SuperFizzBuzz';
-	} else if (i % 3 === 0 && i % 7 === 0) {
-		return 'SuperFizz';
-	} else if (i % 5 === 0 && i % 7 === 0) {
-		return 'SuperBuzz';
-	} else if (i % 3 === 0 && i % 5 === 0) {
-		return 'FizzBuzz';
-	} else if (i % 3 === 0) {
-		return 'Fizz';
-	} else if (i % 5 === 0) {
-		return 'Buzz';
-	} else if (i % 7 === 0) {
-		return 'Super';
-	} else {
-		return i;
-	}
-}
-
-function outputRange(start, end) {
-	for (var i = start; i <= end; i++) {
-		console.log(convertNumber(i));
-	}
-}
-
-outputRange(0, 10);
-
 // randomNumber()
 function randomNumber() {
 	console.log(Math.floor(Math.random() * 2)); // random number from 0 -> 1

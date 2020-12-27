@@ -1,0 +1,22 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.center-row {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+#record-button,
+#stop-button {
+	width: 100px;
+	padding: 15px;
+	border: 1px solid gray;
+	border-radius: 20px;
+}
+
+audio:focus {
+	outline: none;
+}
